@@ -1,0 +1,5 @@
+number = int(input("Enter a number between 0 and 99: "))
+if number < 10:
+        print("It is a one digit number.")
+    else:
+        print("It is a two digit number.")
