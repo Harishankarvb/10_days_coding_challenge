@@ -1,1 +1,9 @@
-write a python program that takes an input from 0 to 99 and prints weather it is a two digit or one digit number.
+int(input ("enter the number of years of service")
+if years of service >10
+print("they recive 15% bonus")
+elif years of service >5
+print("they recive 10% bonus")
+elif years of service >2
+print("they recive 5% bonus")
+else
+print("no bonus for less than two years")
