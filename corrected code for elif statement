@@ -1,0 +1,10 @@
+years_of_service = int(input("Enter the number of years you've worked: "))
+
+if years_of_service > 10:
+    print("You receive a 15% bonus!")
+elif 5 < years_of_service <= 10:
+    print("You receive a 10% bonus!")
+elif 2 < years_of_service <= 5:
+    print("You receive a 5% bonus!")
+else:
+    print("No bonus. Keep working hard!")
