@@ -1,4 +1,9 @@
+# mathematical way of approach
 n = 1
 for i in range(6):
   print(n)
   n=n*10+1
+
+# normal string operator way of approach
+for i in range(1,7):
+  print("1"*i)
