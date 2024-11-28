@@ -1,0 +1,12 @@
+sum = 0
+ans = 'y'
+while ans == 'y':
+    num = int(input("enter the number:"))
+    if num < 0:
+        print("You have entered number less than 0, Aborting!!")
+        ans = 'n'
+    else:
+        sum+=num
+        ans = input("Do you want to enter more numbers?(y or n):").lower()
+else:
+    print(f"The sum of numbers is:{sum}")
