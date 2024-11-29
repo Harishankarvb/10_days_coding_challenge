@@ -1,0 +1,12 @@
+#question_1
+pdt = 1
+list = [1,5,8,10,30]
+for i in list:
+    pdt*=i
+print(f"The product of all elements is:{pdt}")
+
+
+#question_2
+list = [3,2,1]
+list[0], list[-1] = list[-1], list[0]
+print(list)
