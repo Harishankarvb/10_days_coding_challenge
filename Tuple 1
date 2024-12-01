@@ -1,0 +1,19 @@
+#question
+Write a python program to input the names of n students and store them in a tuple. Also input a name from the user and find if this student is present in the tuple or not.
+
+Hint: First create a list and convert it to a tuple.
+ 
+#answer
+
+students = []
+num = int(input("Enter the number of students to be entered:"))
+for i in range(num):
+    name = input("Enter the name:")
+    students.append(name)
+stu_tuple = tuple(students)
+print(stu_tuple)
+name = input("Enter name to search: ")
+if  name in stu_tuple:
+    print("Student is present.")
+else:
+    print("Student is not present.")
