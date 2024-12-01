@@ -1,0 +1,7 @@
+test_tuple = (1,2,3,4,5,2)
+
+for i in test_tuple:
+    if test_tuple.count(i) > 1:
+        print("The tuple has duplicate values.")
+        break
+    
